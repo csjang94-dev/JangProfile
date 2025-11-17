@@ -1,0 +1,219 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.2"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="11" refY="6" orient="auto">
+      <polygon points="0 0, 12 6, 0 12" fill="#3b82f6" />
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="600" y="60" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    AWS 서비스 활용
+  </text>
+  <text x="600" y="95" font-family="Arial, sans-serif" font-size="20" fill="#cbd5e1" text-anchor="middle">
+    Core Services &amp; Benefits
+  </text>
+  
+  <!-- Service Cards Container -->
+  <g>
+    <!-- ALB Card -->
+    <g filter="url(#shadow)">
+      <rect x="80" y="140" width="320" height="220" rx="15" fill="rgba(255,255,255,0.95)"/>
+      
+      <!-- Icon -->
+      <circle cx="240" cy="190" r="35" fill="#FF9900" opacity="0.15"/>
+      <rect x="225" y="180" width="30" height="20" rx="3" fill="#FF9900"/>
+      <text x="240" y="222" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">⚖️</text>
+      
+      <!-- Service Name -->
+      <text x="240" y="260" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e40af" text-anchor="middle">
+        ALB
+      </text>
+      <text x="240" y="282" font-family="Arial, sans-serif" font-size="14" fill="#64748b" text-anchor="middle">
+        Application Load Balancer
+      </text>
+      
+      <!-- Why -->
+      <text x="100" y="310" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#dc2626">
+        선택 이유
+      </text>
+      <text x="110" y="332" font-family="Arial, sans-serif" font-size="13" fill="#334155">
+        • 트래픽 분산 및 고가용성
+      </text>
+      <text x="110" y="350" font-family="Arial, sans-serif" font-size="13" fill="#334155">
+        • HTTPS 인증서 통합 관리
+      </text>
+    </g>
+    
+    <!-- ECS Card -->
+    <g filter="url(#shadow)">
+      <rect x="440" y="140" width="320" height="220" rx="15" fill="rgba(255,255,255,0.95)"/>
+      
+      <!-- Icon -->
+      <circle cx="600" cy="190" r="35" fill="#FF9900" opacity="0.15"/>
+      <text x="600" y="205" font-family="Arial, sans-serif" font-size="32" text-anchor="middle">📦</text>
+      
+      <!-- Service Name -->
+      <text x="600" y="260" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e40af" text-anchor="middle">
+        ECS
+      </text>
+      <text x="600" y="282" font-family="Arial, sans-serif" font-size="14" fill="#64748b" text-anchor="middle">
+        Elastic Container Service
+      </text>
+      
+      <!-- Why -->
+      <text x="460" y="310" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#dc2626">
+        선택 이유
+      </text>
+      <text x="470" y="332" font-family="Arial, sans-serif" font-size="13" fill="#334155">
+        • 컨테이너 오케스트레이션
+      </text>
+      <text x="470" y="350" font-family="Arial, sans-serif" font-size="13" fill="#334155">
+        • 배포 자동화 및 관리 용이
+      </text>
+    </g>
+    
+    <!-- Fargate Card -->
+    <g filter="url(#shadow)">
+      <rect x="800" y="140" width="320" height="220" rx="15" fill="rgba(255,255,255,0.95)"/>
+      
+      <!-- Icon -->
+      <circle cx="960" cy="190" r="35" fill="#FF9900" opacity="0.15"/>
+      <text x="960" y="205" font-family="Arial, sans-serif" font-size="32" text-anchor="middle">🚀</text>
+      
+      <!-- Service Name -->
+      <text x="960" y="260" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e40af" text-anchor="middle">
+        Fargate
+      </text>
+      <text x="960" y="282" font-family="Arial, sans-serif" font-size="14" fill="#64748b" text-anchor="middle">
+        Serverless Container
+      </text>
+      
+      <!-- Why -->
+      <text x="820" y="310" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#dc2626">
+        선택 이유
+      </text>
+      <text x="830" y="332" font-family="Arial, sans-serif" font-size="13" fill="#334155">
+        • 서버 관리 불필요
+      </text>
+      <text x="830" y="350" font-family="Arial, sans-serif" font-size="13" fill="#334155">
+        • 자동 스케일링 및 비용 최적화
+      </text>
+    </g>
+  </g>
+  
+  <!-- Connection Arrows -->
+  <line x1="400" y1="250" x2="440" y2="250" stroke="#3b82f6" stroke-width="4" marker-end="url(#arrowBlue)"/>
+  <line x1="760" y1="250" x2="800" y2="250" stroke="#3b82f6" stroke-width="4" marker-end="url(#arrowBlue)"/>
+  
+  <!-- Benefits Section -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="410" width="1040" height="220" rx="15" fill="rgba(16, 185, 129, 0.1)" stroke="#10b981" stroke-width="3"/>
+    
+    <!-- Header -->
+    <rect x="80" y="410" width="1040" height="50" rx="15" fill="#10b981" opacity="0.2"/>
+    <text x="600" y="445" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#059669" text-anchor="middle">
+      ✨ 통합 활용 시 핵심 장점
+    </text>
+    
+    <!-- Benefit 1 -->
+    <g>
+      <circle cx="130" cy="500" r="30" fill="#10b981" opacity="0.2"/>
+      <text x="130" y="510" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">🎯</text>
+      <text x="180" y="495" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#047857">
+        고가용성 보장
+      </text>
+      <text x="180" y="518" font-family="Arial, sans-serif" font-size="14" fill="#e0e7ff">
+        ALB의 헬스체크와 다중 AZ 배포로
+      </text>
+      <text x="180" y="536" font-family="Arial, sans-serif" font-size="14" fill="#e0e7ff">
+        무중단 서비스 제공
+      </text>
+    </g>
+    
+    <!-- Benefit 2 -->
+    <g>
+      <circle cx="450" cy="500" r="30" fill="#10b981" opacity="0.2"/>
+      <text x="450" y="510" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">⚡</text>
+      <text x="500" y="495" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#047857">
+        탄력적 확장성
+      </text>
+      <text x="500" y="518" font-family="Arial, sans-serif" font-size="14" fill="#e0e7ff">
+        트래픽 증가 시 Fargate가 자동으로
+      </text>
+      <text x="500" y="536" font-family="Arial, sans-serif" font-size="14" fill="#e0e7ff">
+        컨테이너 수 조정
+      </text>
+    </g>
+    
+    <!-- Benefit 3 -->
+    <g>
+      <circle cx="770" cy="500" r="30" fill="#10b981" opacity="0.2"/>
+      <text x="770" y="510" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">💰</text>
+      <text x="820" y="495" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#047857">
+        운영 효율화
+      </text>
+      <text x="820" y="518" font-family="Arial, sans-serif" font-size="14" fill="#e0e7ff">
+        서버리스 환경으로 인프라 관리
+      </text>
+      <text x="820" y="536" font-family="Arial, sans-serif" font-size="14" fill="#e0e7ff">
+        부담 최소화 및 비용 절감
+      </text>
+    </g>
+    
+    <!-- Benefit 4 -->
+    <g>
+      <circle cx="130" cy="580" r="30" fill="#10b981" opacity="0.2"/>
+      <text x="130" y="590" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">🔄</text>
+      <text x="180" y="575" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#047857">
+        신속한 배포
+      </text>
+      <text x="180" y="598" font-family="Arial, sans-serif" font-size="14" fill="#e0e7ff">
+        ECS + Fargate 조합으로 컨테이너
+      </text>
+      <text x="180" y="616" font-family="Arial, sans-serif" font-size="14" fill="#e0e7ff">
+        기반 빠른 업데이트 가능
+      </text>
+    </g>
+    
+    <!-- Benefit 5 -->
+    <g>
+      <circle cx="450" cy="580" r="30" fill="#10b981" opacity="0.2"/>
+      <text x="450" y="590" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">🔒</text>
+      <text x="500" y="575" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#047857">
+        보안 강화
+      </text>
+      <text x="500" y="598" font-family="Arial, sans-serif" font-size="14" fill="#e0e7ff">
+        Private Subnet에서 컨테이너 실행,
+      </text>
+      <text x="500" y="616" font-family="Arial, sans-serif" font-size="14" fill="#e0e7ff">
+        ALB를 통한 안전한 트래픽 제어
+      </text>
+    </g>
+    
+    <!-- Benefit 6 -->
+    <g>
+      <circle cx="770" cy="580" r="30" fill="#10b981" opacity="0.2"/>
+      <text x="770" y="590" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">📊</text>
+      <text x="820" y="575" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#047857">
+        모니터링 통합
+      </text>
+      <text x="820" y="598" font-family="Arial, sans-serif" font-size="14" fill="#e0e7ff">
+        AWS CloudWatch를 통한 실시간
+      </text>
+      <text x="820" y="616" font-family="Arial, sans-serif" font-size="14" fill="#e0e7ff">
+        성능 및 로그 모니터링
+      </text>
+    </g>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="120" cy="110" r="4" fill="#ffffff" opacity="0.4"/>
+  <circle cx="1100" cy="105" r="3" fill="#ffffff" opacity="0.3"/>
+</svg>

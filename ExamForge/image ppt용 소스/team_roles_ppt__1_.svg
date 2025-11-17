@@ -1,0 +1,125 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f9ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#eff6ff;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  
+  <!-- Title -->
+  <text x="600" y="70" font-family="Arial, sans-serif" font-size="44" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    👥 팀원 역할 및 핵심 책임
+  </text>
+  <text x="600" y="110" font-family="Arial, sans-serif" font-size="24" fill="#e0e7ff" text-anchor="middle">
+    Key Roles &amp; Responsibilities
+  </text>
+  
+  <!-- Card 1: 박대복 -->
+  <g filter="url(#shadow)">
+    <rect x="80" y="170" width="500" height="420" rx="20" fill="url(#cardGradient1)"/>
+    
+    <!-- Icon -->
+    <circle cx="330" cy="230" r="35" fill="#3b82f6" opacity="0.1"/>
+    <text x="330" y="245" font-family="Arial, sans-serif" font-size="36" text-anchor="middle">💻</text>
+    
+    <!-- Name -->
+    <text x="330" y="300" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1e3a8a" text-anchor="middle">
+      박대복
+    </text>
+    
+    <!-- Role -->
+    <rect x="140" y="315" width="380" height="45" rx="22" fill="#3b82f6" opacity="0.9"/>
+    <text x="330" y="345" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#ffffff" text-anchor="middle">
+      웹/콘텐츠 개발 및 CI 리드
+    </text>
+    
+    <!-- Responsibilities -->
+    <text x="110" y="400" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e40af">
+      담당 업무:
+    </text>
+    
+    <text x="125" y="432" font-family="Arial, sans-serif" font-size="16" fill="#334155">
+      • 웹페이지 및 컨텐츠 제작 및 기능 구현
+    </text>
+    <text x="140" y="458" font-family="Arial, sans-serif" font-size="15" fill="#64748b">
+      (Front-End Development)
+    </text>
+    
+    <text x="125" y="493" font-family="Arial, sans-serif" font-size="16" fill="#334155">
+      • 개발 결과물 GitHub Repository
+    </text>
+    <text x="140" y="517" font-family="Arial, sans-serif" font-size="16" fill="#334155">
+      통합 및 관리
+    </text>
+    
+    <text x="125" y="552" font-family="Arial, sans-serif" font-size="16" fill="#334155">
+      • CI(Continuous Integration) 파이프라인
+    </text>
+    <text x="140" y="576" font-family="Arial, sans-serif" font-size="16" fill="#334155">
+      구축 및 초기 테스트 주도
+    </text>
+  </g>
+  
+  <!-- Card 2: 장경진 -->
+  <g filter="url(#shadow)">
+    <rect x="620" y="170" width="500" height="420" rx="20" fill="url(#cardGradient2)"/>
+    
+    <!-- Icon -->
+    <circle cx="870" cy="230" r="35" fill="#2563eb" opacity="0.1"/>
+    <text x="870" y="245" font-family="Arial, sans-serif" font-size="36" text-anchor="middle">☁️</text>
+    
+    <!-- Name -->
+    <text x="870" y="300" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1e3a8a" text-anchor="middle">
+      장경진
+    </text>
+    
+    <!-- Role -->
+    <rect x="670" y="315" width="400" height="45" rx="22" fill="#2563eb" opacity="0.9"/>
+    <text x="870" y="345" font-family="Arial, sans-serif" font-size="19" font-weight="bold" fill="#ffffff" text-anchor="middle">
+      클라우드 배포(CD) 및 프로젝트 관리
+    </text>
+    
+    <!-- Responsibilities -->
+    <text x="650" y="400" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e40af">
+      담당 업무:
+    </text>
+    
+    <text x="665" y="432" font-family="Arial, sans-serif" font-size="16" fill="#334155">
+      • GitHub Actions 기반 AWS 환경
+    </text>
+    <text x="680" y="458" font-family="Arial, sans-serif" font-size="16" fill="#334155">
+      자동 배포 파이프라인 구축 및 운영
+    </text>
+    
+    <text x="665" y="493" font-family="Arial, sans-serif" font-size="16" fill="#334155">
+      • CD(Continuous Delivery/Deployment)
+    </text>
+    <text x="680" y="517" font-family="Arial, sans-serif" font-size="16" fill="#334155">
+      전략 수립 및 실행
+    </text>
+    
+    <text x="665" y="552" font-family="Arial, sans-serif" font-size="16" fill="#334155">
+      • 프로젝트 성과를 위한 PPT 제작 및
+    </text>
+    <text x="680" y="576" font-family="Arial, sans-serif" font-size="16" fill="#334155">
+      발표
+    </text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="100" r="3" fill="#ffffff" opacity="0.3"/>
+  <circle cx="1100" cy="150" r="4" fill="#ffffff" opacity="0.4"/>
+  <circle cx="150" cy="630" r="3" fill="#ffffff" opacity="0.3"/>
+  <circle cx="1050" cy="620" r="3" fill="#ffffff" opacity="0.4"/>
+</svg>
