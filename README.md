@@ -21,4 +21,5 @@
 
 ## 📫 연락처(Contact)
 - Email: csjang94@gmail.com
-- Blog: [[블로그 링크](https://csjang94-dev.tistory.com/)]
+- Portfolio : [[포트폴리오](https://csjang94-dev.github.io/JangProfile/)]
+- Blog: [[블로그](https://csjang94-dev.tistory.com/)]
