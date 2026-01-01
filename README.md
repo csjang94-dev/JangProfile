@@ -14,10 +14,10 @@
 
 ## 📚 프로젝트(Projects)
 ### 1. ImageBoard [링크](https://github.com/csjang94-dev/imageboard)
-- 프로젝트 설명
+- 프로젝트 설명: 이미지 공유 및 커뮤니티 기능이 있는 게시판
 - 사용 기술: Python Flask, React, MySQL 
 ### 2. 스마트 홈 [링크](https://github.com/csjang94-dev/smarthome)
-- 프로젝트 설명
+- 프로젝트 설명: 집안에 전자기기를 자동제어 및 원격제어
 - 사용 기술: Node.js, AWS IoT Core, MQTT, MySQL, DynamoDB RaspberryPI, Arduino 
 
 <br>
@@ -27,6 +27,7 @@
 - Portfolio : [[포트폴리오](https://csjang94-dev.github.io/JangProfile/)]
 
 - Blog: [[블로그](https://csjang94-dev.tistory.com/)]
+
 
 
 
