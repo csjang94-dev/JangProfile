@@ -26,12 +26,12 @@
 ### 6. AWS 자격증 훈련 사이트 [링크](https://d2aftrh1mh1977.cloudfront.net/AWS 자격증 훈련 사이트/index.html)
 - 프로젝트 설명: 시험 문제 풀이를 통한 학습과 미니 퀴즈를 통한 개념정리
 
-
 <br>
 
 ## 📫 연락처(Contact)
 - Email: csjang94@gmail.com
 - Blog: [[블로그](https://csjang94-dev.tistory.com/)]
+
 
 
 
