@@ -6,7 +6,7 @@
 ## 🛠 기술 스택(SKill)
 - Frontend: HTML, CSS, JavaScript, React(basic)
 - Backend: Node.js, Python Flask
-- Database: MySQL, DynamoDB
+- Database: MySQL, PostgreSQL, DynamoDB 
 - Cloud/Infra: AWS Terraform(IaC)
 - TeamWork : GitHub, Figma, Swagger
 
@@ -31,6 +31,7 @@
 ## 📫 연락처(Contact)
 - Email: csjang94@gmail.com
 - Blog: [[블로그](https://csjang94-dev.tistory.com/)]
+
 
 
 
