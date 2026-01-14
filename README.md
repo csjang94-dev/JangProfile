@@ -23,7 +23,7 @@
 - 프로젝트 설명: 작물이 성장할 수 있는 환경 조성을 자동화 
 ### 5. ArcadeGameHub (웹 게임 서비스) [링크](https://d2aftrh1mh1977.cloudfront.net/ArcadeGameHub/index.html)
 - 프로젝트 설명: 모바일, 태블릿, 데스크탑 어디서나 이용할 수 있는 웹 게임 서비스
-### 6. AWS 자격증 훈련 사이트 [링크](https://d2aftrh1mh1977.cloudfront.net/AWS 자격증 훈련 사이트/index.html)
+### 6. AWS 자격증 훈련 사이트 [링크](https://d2aftrh1mh1977.cloudfront.net/AWS자격증훈련사이트/index.html)
 - 프로젝트 설명: 시험 문제 풀이를 통한 학습과 미니 퀴즈를 통한 개념정리
 
 <br>
@@ -31,6 +31,7 @@
 ## 📫 연락처(Contact)
 - Email: csjang94@gmail.com
 - Blog: [[블로그](https://csjang94-dev.tistory.com/)]
+
 
 
 
